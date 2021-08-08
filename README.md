@@ -18,4 +18,4 @@ The following image is a preview of the web application's appearance:
 
 ![Justin Kemp - Portfolio Demo](./assets/images/justin-kemp-portfolio-preview.png) 
 
-Here is a link to the deployed webpage: [Justin Kemp Portfolio Demo](https://github.com/justinkemp10)
+Here is a link to the deployed webpage: [Justin Kemp Portfolio Demo](https://justinkemp10.github.io/02-Homework/)
