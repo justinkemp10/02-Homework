@@ -1,80 +1,183 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="./Assets/css/style.css" />
     <title>Justin Kemp - Web Portfolio</title>
-</head>
+  </head>
 
-<body>
-    <header class="header">
-        <h1>Justin Kemp</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#completed-projects">Completed Projects</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+  <body>
+    <div class="background-effect"></div>
+    <div class="intro-left">
+      <!-- <nav class="navbar navbar-light">
+        <a class="nav-item nav-link active nav-style" href="#aboutlink"
+          >About</a
+        >
+        <a class="nav-item nav-link active nav-style" href="#resumelink"
+          >Resume</a
+        >
+      </nav> -->
+      <div class="container-fluid full-height">
+        <div class="row text-center align-items-center full-height">
+          <div class="col">
+            <img
+              src="./Assets/images/avatar2.jpg"
+              alt="user avatar"
+              class="avatar"
+            />
+            <p class="display-4">Justin Kemp</p>
+            <p class="font-italic">Web Development & Design</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-8 panel-right px-0">
+          <section class="quote">
+            <figure>
+              <blockquote class="blockquote">
+                <p>"Be yourself; everyone else is already taken."</p>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                Oscar Wilde <cite title="Source Title"></cite>
+              </figcaption>
+            </figure>
+          </section>
 
-    <main class="content-container">
-        <section id="about-me" class="sections">
-            <h2>About Me</h2>
-            <img src="Assets/images/family_pic.jpeg" class="avatar">
-            <p>
-                    My name is Justin Kemp and I am currently enrolled in Northwestern's Coding Bootcamp. I graduated from the University of Nebraska-Lincoln in 2013 with a bachelor's degree in PGA Golf Management and I've spent the last 8 years working in sales marketing, so I'm making a big transition to a career in coding. Below you will find my portfolio and links to my completed projects as well as all of my contact information. I look forward to hearing from you!
-            </p>  
-        </section>
-        <section id="completed-projects" class="sections">
-            <h2>Completed Projects</h2>
-            <div class="project-container">
-                <a href="https://justinkemp10.github.io/01-Homework/" target="_blank">
-                <img class="project-previews" src="./Assets/images/01-html-css-git-homework-demo.png" alt="project 1" style="width: 300px; height: 400px;" />
-                </a>
-                <div class="project-title">Project 1</div>
+          <section class="intro">
+            <h1 class="mb-5">
+              Hello, my name is Justin and I'm a front-end developer.
+            </h1>
+            <h4>Welcome to my web portfolio!</h4>
+            <p class="about-me" id="about-link">
+              I am currently enrolled in a Full Stack Web Development program
+              and have completed the front-end development portion of the boot
+              camp. I have spent the last 7 years in sales as an Account
+              Executive, so I am looking to transition into a new career!
+            </p>
+          </section>
+          <section class="portfolio-projects">
+            <h2 class="mb-5">My projects:</h2>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 mt-3">
+                  <img
+                    src="./Assets/images/Weather Dashboar.png"
+                    alt="Preview Portfolio Image"
+                    class="img-fluid thumbnail"
+                    href="https://github.com/justinkemp10/weather-dashboard"
+                    target="_blank"
+                  />
+                </div>
+                <div class="col-md-6 mt-3">
+                  <img
+                    src="./Assets/images/Work Day Schedul.png"
+                    alt="Preview Portfolio Image"
+                    class="img-fluid thumbnail"
+                  />
+                </div>
+                <div class="col-md-6 mt-3">
+                  <img
+                    src="./Assets/images/Coding Quiz.png"
+                    alt="Preview Portfolio Image"
+                    class="img-fluid thumbnail"
+                  />
+                </div>
+                <div class="col-md-6 mt-3">
+                  <img
+                    src="./Assets/images/Password Generat.png"
+                    alt="Preview Portfolio Image"
+                    class="img-fluid thumbnail"
+                  />
+                </div>
+              </div>
             </div>
-            <div class="project-container">
-                <a href="https://justinkemp10.github.io/01-Homework/" target="_blank">    
-                <img class="project-previews" src="https://via.placeholder.com/200x200" alt="project 2" />
-                </a>
-                <div class="project-title">Project 2</div>
+            <a
+              href="https://github.com/justinkemp10?tab=repositories"
+              target="_blank"
+              class="float-right mt-3 mb-3 px-5"
+              >See more ></a
+            >
+          </section>
+          <section class="contact">
+            <h2 class="mb-5">
+              If you want to reach me, please fill out the form below!
+            </h2>
+            <div class="container-fluid contact-form"></div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="John Smith"
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email Address:</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="name@email.com"
+                  />
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message:</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="5"
+                  ></textarea>
+                </div>
+              </div>
+              <button
+                type="button"
+                class="btn btn-outline-secondary"
+                id="send-button"
+              >
+                Send!
+              </button>
             </div>
-            <div class="project-container"> 
-                <a href="https://justinkemp10.github.io/01-Homework/" target="_blank">
-                <img class="project-previews" src="https://via.placeholder.com/200x200" alt="project 3" />   
-                </a>
-                <div class="project-title">Project 3</div>
-            </div> 
-        </section>
-        <section id="contact-me" class="sections">
-            <h2>Contact Me</h2>
-            <ul>
-                <li>
-                    <a>(531) 220-6142</a>
-                </li>
-                <li>
-                    <a style="text-decoration: underline" href="mailto:jkemp0790@gmail.com">jkemp0790@gmail.com</a>
-                </li>
-                <li>
-                    <a style="text-decoration: underline" href="https://github.com/justinkemp10" target="_blank">GitHub</a>
-                </li>
-                <li>
-                    <a style="text-decoration: underline" href="https://www.linkedin.com/in/justin-kemp-4353b489/" target="_blank">LinkedIn</a>
-                </li>
-            </ul>
-        </section>
-    </main>
-
-</body>
-
+          </section>
+          <section>
+            <div class="row link-section">
+              <a
+                href="https://github.com/justinkemp10"
+                id="githublink"
+                target="_blank"
+                >GitHub</a
+              >
+              <a
+                href="https://www.linkedin.com/in/justin-kemp-4353b489/"
+                target="_blank"
+                id="linkedinlink"
+                >LinkedIn</a
+              >
+              <a
+                href="Assets/images/Justin Kemp - Resume5.pdf"
+                target="_blank"
+                download="Justin Kemp - Resume"
+                id="resumelink"
+                >Resume</a
+              >
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
