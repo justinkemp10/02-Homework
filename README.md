@@ -10,7 +10,7 @@ Update website portfolio using everything we learned throughout the boot camp.
 2. The web portfolio should have links to my GitHub profile and LinkedIn profile.
 3. There should be a downloadable link to my resume.
 4. There should be at least 2 examples of deployed projects with links to the GitHub repository.
-5. The web application should have a polished, mobile-responsive user interface.
+5. The web application should have a mobile-responsive user interface.
 6. Design should be "polished" and be appealing to the user.
 7. Updated GitHub profile.
 8. Updated resume.
