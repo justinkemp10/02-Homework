@@ -15,7 +15,7 @@ body {
 }
 
 .intro-left {
-    background-image: url(../images/brick_wall.jpg);
+    background-image: url(/images/brick_wall.jpg);
     background-size: contain;
     position: fixed;
     left: 0;
