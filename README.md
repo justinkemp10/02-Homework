@@ -24,4 +24,4 @@ The following image is a preview of the web application's appearance:
 
 ![Justin Kemp - Portfolio Demo](./images/web_portfolio_img.gif) 
 
-Here is a link to the deployed webpage: [Justin Kemp Portfolio Demo](https://justinkemp10.github.io/02-Homework/)
+Here is a link to the deployed webpage: [Justin Kemp Portfolio Demo](https://justinkemp10.github.io/web-portfolio/)
