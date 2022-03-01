@@ -53,20 +53,34 @@
 
           <section class="intro">
             <h1 class="mb-5">
-              Hello, my name is Justin and I'm a front-end developer.
+              Hello, my name is Justin and I'm an aspiring web developer!
             </h1>
             <h4>Welcome to my web portfolio!</h4>
             <p class="about-me" id="about-link">
-              I am currently enrolled in a Full Stack Web Development program
-              and have completed the front-end development portion of the boot
-              camp. I have spent the last 7 years in sales as an Account
-              Executive, so I am looking to transition into a new career!
+              I have recently completed a Full Stack Web Development program.
+              Throughout the boot camp we covered many programming languages. 
+              Including HTML, CSS, JavaScript, Node.js, jQuery, MongoDB, MySQL,
+              Bootstrap, Express.js, React.js, Agile Methodology, PWA, and Git.
+              <br>
+              <br>
+              I have spent the last 7 years in sales as an Account
+              Executive, so I am looking forward to transitioning into a new career!
             </p>
           </section>
           <section class="portfolio-projects">
             <h2 class="mb-5">My projects:</h2>
             <div class="container-fluid">
               <div class="row">
+                <div class="col-md-6 project-previews">
+                  <a href="https://github.com/elliottdombrowski/SWEPT-02" target="_blank">
+                  <img
+                    src="./images/swept_profile_desktop.png"
+                    alt="Preview Portfolio Image"
+                    class="img-fluid thumbnail"
+                  />
+                  </a>
+                  <h4>SWEPT 2.0</h4>
+                </div>
                 <div class="col-md-6 project-previews">
                   <a href="https://github.com/justinkemp10/weather-dashboard" target="_blank">
                   <img
@@ -99,16 +113,6 @@
                   </a>
                   <h4>Coding Quiz</h4>
                 </div>
-                <div class="col-md-6 project-previews">
-                  <a href="https://github.com/justinkemp10/Password-Generator" target="_blank">
-                  <img
-                    src="./images/Password Generat.png"
-                    alt="Preview Portfolio Image"
-                    class="img-fluid thumbnail"
-                  />
-                  </a>
-                  <h4>Password Generator</h4>
-                </div>
               </div>
             </div>
             <a
@@ -123,7 +127,20 @@
               If you want to reach me, please fill out the form below!
             </h2>
             <div class="container-fluid contact-form"></div>
-            <div class="row">
+            <form action="mailto:jkemp1001@hotmail.com"
+            method="POST"
+            enctype="multipart/form-data"
+            name="EmailForm">
+                Name<br>
+                <input type="text" size="19" name="Contact-Name"><br><br>
+                Email<br>
+                <input type="email" name="Contact-Email"><br><br> 
+                Message<br> 
+                <textarea name="Contact-Message" rows="6″ cols="20″>
+                </textarea><br><br> 
+                <button type="submit" value="Submit">Send</button>
+            </form> 
+            <!-- <div class="row">
               <div class="col-md-6">
                 <div class="mb-3">
                   <label for="name" class="form-label">Name:</label>
@@ -163,7 +180,7 @@
               >
                 Send!
               </button>
-            </div>
+            </div> -->
           </section>
           <section>
             <div class="row link-section">

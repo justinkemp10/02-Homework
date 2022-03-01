@@ -115,3 +115,27 @@ a {
     text-align: center;
     color: black;
 }
+form {
+    display: flex;
+    display: inline-block;
+    text-align: center;
+}
+
+button {
+    background: #119739;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    height: 50px;
+    width: 100px;   
+}
+button:hover {
+    background: #3ccc67;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+}
