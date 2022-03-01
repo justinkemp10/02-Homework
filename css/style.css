@@ -34,6 +34,9 @@ body {
         width: 100%;
         border: 3px solid maroon;
     }
+    .contact-form {
+        text-align: center;
+    }
 }
 
 .avatar {
@@ -115,6 +118,7 @@ a {
     text-align: center;
     color: black;
 }
+
 form {
     display: flex;
     display: inline-block;
