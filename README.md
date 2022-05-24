@@ -16,7 +16,6 @@ Update website portfolio using everything we learned throughout the boot camp.
 8. Updated resume.
 9. Updated LinkedIn profile.
 
-The email form is working!!!
 
 ## **Mock-Up**
 
