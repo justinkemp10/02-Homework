@@ -70,6 +70,29 @@ a {
     text-decoration: none;
 }
 
+.email-address {
+    color: blue;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px #ffffff;
+    font-size: smaller;
+}
+
+.email-address-two {
+    color: blue;
+    text-shadow: 2px 2px 4px #ffffff;
+    font-weight: 400;
+}
+
+.repo-link {
+    font-weight: 300;
+    color: maroon;
+}
+
+.more-link {
+    font-weight: 300;
+    color: blue;
+}
+
 .thumbnail {
     overflow: hidden;
     width: max-content;
