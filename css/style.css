@@ -11,7 +11,7 @@ body, html {
 body {
     font-weight: 200;
     font-size: 1.5rem;
-    color: #444;
+    color: #444444;
 }
 
 .intro-left {
@@ -21,9 +21,9 @@ body {
     left: 0;
     width: 33.3333%;
     height: 100%;
-    color: white;
+    color: #ffffff;
     text-shadow: 2px 2px 4px #000000;
-    border-right: 3px solid maroon;
+    border-right: 3px solid #800000;
 }
 
 @media (max-width: 768px) {
@@ -32,7 +32,7 @@ body {
         margin-bottom: 0;
         position: relative;
         width: 100%;
-        border: 3px solid maroon;
+        border: 3px solid #800000;
     }
     .contact-form {
         text-align: center;
@@ -66,31 +66,31 @@ section {
 }
 
 a {
-    color: #444;
+    color: #444444;
     text-decoration: none;
 }
 
 .email-address {
-    color: blue;
+    color: #0000ff;
     font-weight: 400;
     text-shadow: 2px 2px 4px #ffffff;
     font-size: smaller;
 }
 
 .email-address-two {
-    color: black;
+    color: #000000;
     text-shadow: 2px 2px 4px #ffffff;
     font-weight: 400;
 }
 
 .repo-link {
     font-weight: 300;
-    color: maroon;
+    color: #800000;
 }
 
 .more-link {
     font-weight: 300;
-    color: blue;
+    color: #0000ff;
 }
 
 .thumbnail {
@@ -103,7 +103,7 @@ a {
 }
 
 .thumbnail:hover {
-    border: 5px solid limegreen;
+    border: 5px solid #32cd32;
 }
 
 /* .footer {
@@ -132,7 +132,7 @@ a {
 }
 
 .nav-style {
-    color: white;
+    color: #ffffff;
     font-weight: 300;
 }
 
@@ -150,7 +150,7 @@ form {
 
 button {
     background: #119739;
-    color: #fff;
+    color: #ffffff;
     border: 1px solid #eee;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #eee;
