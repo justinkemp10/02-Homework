@@ -83,6 +83,12 @@ a {
     font-weight: 400;
 }
 
+#certificateLink {
+    color: #bc0000;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px #ffffff;
+}
+
 .repo-link {
     font-weight: 300;
     color: #800000;
